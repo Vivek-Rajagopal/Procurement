@@ -1,0 +1,16 @@
+
+<form id="1917485262">
+<property name="name" value="SoftwarePurchase.SoftwareProcurement-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<dataHolder inputId="" name="#FBB767" type="basicType" outId="am_approval" value="java.lang.Boolean" id="am_approval"/>
+<dataHolder inputId="" name="#000000" type="basicType" outId="am_comments" value="java.lang.String" id="am_comments"/>
+<dataHolder inputId="" name="#A7E690" type="basicType" outId="d_approval" value="java.lang.Boolean" id="d_approval"/>
+<dataHolder inputId="" name="#0000A0" type="basicType" outId="d_comments" value="java.lang.String" id="d_comments"/>
+<dataHolder inputId="" name="#B29FE4" type="basicType" outId="pm_approval" value="java.lang.Boolean" id="pm_approval"/>
+<dataHolder inputId="" name="#FF8881" type="basicType" outId="pm_comments" value="java.lang.String" id="pm_comments"/>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="product_cost" value="java.lang.Float" id="product_cost"/>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="product_details" value="java.lang.String" id="product_details"/>
+<dataHolder inputId="" name="#E9E371" type="basicType" outId="product_name" value="java.lang.String" id="product_name"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="product_version" value="java.lang.Integer" id="product_version"/>
+</form>
