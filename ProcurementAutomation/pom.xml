@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.myteam</groupId>
   <artifactId>ProcurementAutomation</artifactId>
-  <version>15.0.0</version>
+  <version>5</version>
   <name>ProcurementAutomation</name>
   <description></description>
   <dependencies>

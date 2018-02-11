@@ -5,6 +5,7 @@ package com.myteam.procurementautomation;
  */
 
 @javax.persistence.Table(name = "PA_BP_Approval")
+@javax.persistence.Entity
 public class BusinessPartnerApproval
 		extends
 			org.drools.persistence.jpa.marshaller.VariableEntity
@@ -13,7 +14,7 @@ public class BusinessPartnerApproval
 
 	static final long serialVersionUID = 1L;
 
-	@javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "BUSINESSPARTNERAPPROVAL_ID_GENERATOR")
+	@javax.persistence.GeneratedValue(generator = "BUSINESSPARTNERAPPROVAL_ID_GENERATOR", strategy = javax.persistence.GenerationType.AUTO)
 	@javax.persistence.Id
 	@javax.persistence.SequenceGenerator(name = "BUSINESSPARTNERAPPROVAL_ID_GENERATOR", sequenceName = "BUSINESSPARTNERAPPROVAL_ID_SEQ")
 	private java.lang.Long id;

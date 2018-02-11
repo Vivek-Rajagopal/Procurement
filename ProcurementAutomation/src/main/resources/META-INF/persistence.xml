@@ -4,15 +4,14 @@
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         <jta-data-source>java:jboss/datasources/jbpmDS</jta-data-source>
         <class>org.drools.persistence.jpa.marshaller.MappedVariable</class>
-        <class>com.myteam.procurementautomation.PurchaseRequest</class>
-        <class>com.myteam.procurementautomation.RequestorDetails</class>
-        <class>com.myteam.procurementautomation.RequisitionDetails</class>
+        <class>com.myteam.procurementautomation.RequestorApproval</class>
         <class>com.myteam.procurementautomation.VendorEvaluation</class>
-        <class>com.myteam.procurementautomation.BusinessPartnerApproval</class>
         <class>com.myteam.procurementautomation.FirstAdminApproval</class>
         <class>com.myteam.procurementautomation.SecondAdminApproval</class>
-        <class>com.myteam.procurementautomation.RequestorApproval</class>
+        <class>com.myteam.procurementautomation.RequisitionDetails</class>
         <class>com.myteam.procurementautomation.BUVendorEvaluationDetails</class>
+        <class>com.myteam.procurementautomation.PurchaseRequest</class>
+        <class>com.myteam.procurementautomation.BusinessPartnerApproval</class>
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
         <properties>
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
